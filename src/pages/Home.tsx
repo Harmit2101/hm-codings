@@ -88,7 +88,10 @@ const Home: React.FC<HomeProps> = ({ openContact }) => {
               HM Codings is a cutting-edge technology firm delivering websites, web apps, mobile apps, and AI solutions. Our goal is to help businesses innovate and grow in the digital era.
             </p>
           </div>
-          <div className="md:w-1/2 flex justify-center">
+          <div
+            className="md:w-1/2 flex justify-center cursor-pointer"
+            onClick={() => navigate("/about")}
+          >
             <img
               src={FirmLogo}
               alt="Firm Logo"

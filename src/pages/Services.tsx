@@ -54,7 +54,7 @@ const Services: React.FC<ServicesProps> = ({ openContact }) => {
   );
 
   return (
-    <div className="w-full flex flex-col bg-gray-50 dark:bg-gray-900 min-h-screen pb-24">
+    <div className="w-full flex flex-col bg-gray-50 dark:bg-gray-900 pb-24">
       <section className="max-w-7xl mx-auto px-6 py-20">
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white text-center mb-12">
           Our Services

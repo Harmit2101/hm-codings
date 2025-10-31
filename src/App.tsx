@@ -7,6 +7,7 @@ import ContactCard from "./components/ContactCard";
 import { useState } from "react";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -19,8 +20,9 @@ export default function App() {
       {/* Fixed Header */}
       <Header openContact={openContact} />
 
+      <ScrollToTop />
       {/* Scrollable Main Content */}
-      <main className="flex-grow overflow-y-auto bg-gray-50 dark:bg-gray-900 pt-16 pb-16">
+      <main className="flex-grow overflow-y-auto bg-gray-50 dark:bg-gray-900 pt-12 pb-12">
         <Routes>
           <Route path="/" element={<Home openContact={openContact} />} />
           <Route path="/about" element={<About openContact={openContact} />} />
