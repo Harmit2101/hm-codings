@@ -1,7 +1,7 @@
 // src/constants/aboutContent.ts
 export const aboutContent = {
   hero: {
-    title: "About HM Codings",
+    title: "About HM Coding",
     tagline:
       "We’re a creative tech studio focused on crafting digital products that merge performance, design, and innovation.",
     buttonText: "Get in Touch",
@@ -9,7 +9,7 @@ export const aboutContent = {
   whoWeAre: {
     title: "Who We Are",
     description:
-      "HM Codings is a technology-driven firm based in India, specializing in designing and developing websites, web apps, mobile applications, and AI-powered digital solutions. Our mission is to help startups and businesses grow with scalable, reliable, and future-ready software products.",
+      "HM Coding is a technology-driven firm based in India, specializing in designing and developing websites, web apps, mobile applications, and AI-powered digital solutions. Our mission is to help startups and businesses grow with scalable, reliable, and future-ready software products.",
   },
   missionVision: {
     mission: {

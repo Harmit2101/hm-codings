@@ -28,7 +28,7 @@ const Home: React.FC<HomeProps> = ({ openContact }) => {
         <div className="max-w-7xl mx-auto px-6 py-24 flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl font-extrabold">
-              Build the Future with <span className="text-yellow-300">HM Codings</span>
+              Build the Future with <span className="text-yellow-300">HM Coding</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-100">
               We craft websites, web apps, mobile apps, and AI-driven solutions that empower your business.
@@ -82,10 +82,10 @@ const Home: React.FC<HomeProps> = ({ openContact }) => {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              About HM Codings
+              About HM Coding
             </h2>
             <p className="text-gray-700 dark:text-gray-300 text-lg">
-              HM Codings is a cutting-edge technology firm delivering websites, web apps, mobile apps, and AI solutions. Our goal is to help businesses innovate and grow in the digital era.
+              HM Coding is a cutting-edge technology firm delivering websites, web apps, mobile apps, and AI solutions. Our goal is to help businesses innovate and grow in the digital era.
             </p>
           </div>
           <div

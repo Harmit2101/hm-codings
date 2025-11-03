@@ -34,7 +34,7 @@ const HMLogo: React.FC<{ className?: string }> = ({ className }) => (
       fontSize="24"
       fill="url(#grad)"
     >
-      Codings
+      Coding
     </text>
   </svg>
 );

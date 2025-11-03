@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ openContact }) => {
       <div className="mx-4 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
         {/* Copyright */}
         <p className="text-sm text-center md:text-left">
-          &copy; {new Date().getFullYear()} HM Codings. All rights reserved.
+          &copy; {new Date().getFullYear()} HM Coding. All rights reserved.
         </p>
 
         {/* Navigation Links */}
