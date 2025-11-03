@@ -16,9 +16,9 @@ const About: React.FC<AboutProps> = ({ openContact }) => {
     <div className="w-full flex flex-col">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-purple-600 to-cyan-500 text-white">
-        <div className="max-w-7xl mx-auto px-6 py-24 flex flex-col md:flex-row items-center justify-between">
+        <div className="max-w-7xl mx-auto gap-12 px-6 py-24 flex flex-col md:flex-row items-center justify-between">
           <motion.div
-            className="md:w-1/2 space-y-6"
+            className="md:w-1/2 space-y-6 text-center md:text-left"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -30,7 +30,7 @@ const About: React.FC<AboutProps> = ({ openContact }) => {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-100">{hero.tagline}</p>
-            <div className="space-x-4">
+            <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                 <button
                     className="px-6 py-3 bg-yellow-300 text-gray-900 font-semibold rounded-lg shadow hover:bg-yellow-400 transition"
                     onClick={() => navigate("/services")}
